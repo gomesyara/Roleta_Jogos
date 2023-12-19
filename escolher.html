@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolher</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        body {
+            
+            width: 100vw;
+            height: 100vh;
+            text-align: center;
+            background-color: rgb(0, 0, 0, 0.89);
+            color: rgb(255, 255, 255);
+            animation: escolher 3s; 
+        }
+        @keyframes escolher {
+            0%{
+                opacity: 0;
+            }
+            20%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        } 
+        h1 {
+            padding-top: 20px;
+            font-size: 300%;
+        }
+
+        .container {
+            width: 100%;
+            height: 90%;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nome1, .nome2, .nome3 {
+            text-align: center;
+            font-size: 200%;
+        }
+
+        p {
+            margin-bottom: 2rem;
+        }
+
+        .isabellyEyara {
+            border-radius: 15px;
+            width: 30rem;
+            height: 16rem;
+            overflow: hidden;
+            
+        }
+        
+        .nome1{
+            animation: isabellyEyara 2s;
+        }
+            @keyframes  isabellyEyara {
+            0%{
+                opacity: 0;
+            }
+            10%{
+                opacity: 0;
+            }
+            20%{
+                opacity: 0;
+            }
+            30%{
+                opacity: 0;
+            }
+            35%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        .nome2{
+            animation: Kalebe 2s;
+        }
+
+        @keyframes Kalebe {
+            0%{
+                opacity: 0;
+            }
+            10%{
+                opacity: 0;
+            }
+            20%{
+                opacity: 0;
+            }
+            30%{
+                opacity: 0;
+            }
+            45%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        .nome3{
+            animation: thales 2s;
+        }
+        @keyframes thales {
+            0%{
+                opacity: 0;
+            }
+            10%{
+                opacity: 0;
+            }
+            20%{
+                opacity: 0;
+            }
+            30%{
+                opacity: 0;
+            }
+            40%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 0;
+            }
+            55%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        .kalebe {
+            border-radius: 15px;
+            width: 30rem;
+            height: 16rem;
+            overflow: hidden;
+        }
+
+        .thales {
+            border-radius: 15px;
+            width: 30rem;
+            height: 16rem;
+            overflow: hidden;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        footer {
+            width: 100%;
+            height: 5%;
+            padding: 0rem 0rem 1rem 1rem;
+            position: fixed;
+            bottom: 0;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            background: black;
+        }
+        footer a{
+            text-decoration: none;
+            font-family: 'Gill Sans MT';
+            font-size: large;
+            color: rgb(255, 255, 255);
+        }
+        h4{
+            font-family: 'Gill Sans MT';
+            font-size: medium;
+            color: rgb(255, 255, 255);
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Escolha um jogo</h1>
+    <div class="container">
+        <div class="nome1">
+            <a href="../roleta2.0/entradaCrazyColor.html"><p> Crazy Color</p></a>
+            <div class="isabellyEyara">
+                <a href="../roleta2.0/entradaCrazyColor.html"><img src="../roleta2.0/CrazyColor.png" alt=""></a>
+            </div>
+
+            <div class="descricao">
+                <a href="../roleta2.0/entradaCrazyColor.html">Precione o botão de acordo com <br>
+                a cor da palavra.<br></a>
+            </div>
+        </div>
+
+        <div class="nome2">
+            <a href="../roleta2.0/mars-invaders/index.html"><p> Mars Invaders</p></a>
+            <div class="kalebe">
+                <a href="../roleta2.0/mars-invaders/index.html"><img src="../roleta2.0/marsInvaders.png" alt=""></a>
+            </div>
+
+            <div class="descricao">
+                <a href="../roleta2.0/mars-invaders/index.html">Acerte os aliens sem ser <br>
+                atingido por eles.<br></a>
+            </div>
+        </div>
+
+        <div class="nome3">
+            <a href="../roleta2.0/FlappyBird-Project/FlappyBird-Project/index.html"><p>Flappy Bird</p></a>
+            <div class="thales">
+                <a href="../roleta2.0/FlappyBird-Project/FlappyBird-Project/index.html"><img src="../roleta2.0/FlappyBird.png" alt=""></a>
+            </div>
+            <div class="descricao">
+                <a href="../roleta2.0/FlappyBird-Project/FlappyBird-Project/index.html">Passar pelos obstáculos <br>
+                clicando na tela.<br></a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="../roleta2.0/roleta.html"> &#10094&#10094ﾠVOLTAR</a>
+        <h4 class="descricao"> ETEC SALES GOMES - EPA 2022</h4>
+        <h4 class="descricao"></h4>
+    </footer>
+</body>
+
+</html>

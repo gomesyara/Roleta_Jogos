@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: rgb(0, 0, 0, 0.89);
+    
+}
+
+main, .container1, .container2, .nadaThales1, .kalebe2Thales2,
+.isabellyKalebe1, .yaraEscolher, .nada, .thales1, .isabelly,
+.kalebe1, .yara, .escolher, .kalebe2, .thales2 {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+main {
+    width: 32rem;
+    height: 31rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#roleta, .nadaThales1, .kalebe2Thales2,
+.isabellyKalebe1, .yaraEscolher {
+    width: 100%;
+    height: 100%;
+}
+
+#roleta {
+    border: 8px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: rotate(0deg);
+    transition:  7.2s;
+}
+
+#seta {
+    width: 0;
+    height: 0;
+    border-bottom: 0px solid transparent;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 50px solid black;
+    position: absolute;
+    top: 18%;
+    left: 48.1%;/* 48.1%;Epa */
+    z-index: 999;
+}
+
+.container1, .container2 {
+    width: 100%;
+    height: 50%;
+}
+
+h3 {
+    letter-spacing: 1px; 
+}
+
+.conjuntoNadaThales1, .conjuntoIsabellyKalebe1, 
+.conjuntoYaraEscolher, .conjuntoKalebe2Thales2 {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.conjuntoNadaThales1, .conjuntoYaraEscolher {
+    background-image: linear-gradient(#005FF2, #005FF2, #018EDB, #018EDB);
+}
+
+.conjuntoIsabellyKalebe1, .conjuntoKalebe2Thales2 {
+    background-image: linear-gradient(#018EDB, #018EDB, #005FF2, #005FF2);
+}
+
+.nadaThales1, .kalebe2Thales2 {
+    transform: rotate(-44.9deg);
+}
+
+.isabellyKalebe1, .yaraEscolher {
+    transform: rotate(45deg);
+}
+
+.nada, .thales1, .isabelly, .kalebe1,
+.yara, .escolher, .kalebe2, .thales2 {
+    width: 100%;
+    height: 34rem;;
+}
+
+.nada, .isabelly,
+.escolher, .thales2 {
+    background: #018EDB;
+}
+
+.thales1, .kalebe1,
+.yara, .kalebe2 {
+    background: #005FF2;
+}
+
+#btn {
+    
+    margin-top: 2rem;
+    border: 1px solid black;
+}
+
+#btn:hover {
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+button {
+    width: 7rem;
+    height: 2.8rem;
+    opacity: 1;
+    font-size: larger;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px black;
+    color: white;
+    background: black;
+    cursor: pointer;
+    transition: 0;
+} 
+
+.nomeNada, .nomeThales1, .nomeIsabelly, .nomeKalebe1,
+.nomeYara, .nomeEscolher, .nomeKalebe2, .nomeThales2 {
+    width: 0;
+    height: 0;
+}
+
+.nomeEscolher {
+    margin: 0rem 2.2rem 0rem 0rem;
+    transform: rotate(-109deg);
+}
+
+.nomeThales2 {
+    margin: 0rem 1rem 0rem 0rem;
+    transform: rotate(-109deg);
+}
+
+.nomeNada {
+    margin: 2rem 2rem 0rem 2.2rem;
+    transform: rotate(62deg);
+}
+
+.nomeThales1 {
+    margin: 0rem 0rem 1rem 2.6rem;
+    transform: rotate(110deg);
+}
+
+.nomeIsabelly {
+    margin: 0rem 0rem 1rem 1rem;
+    transform: rotate(66deg);
+}
+
+.nomeKalebe1 {
+    margin: 0rem 0rem 0rem 4rem;
+    transform: rotate(105deg);
+}
+
+.nomeYara {
+    margin: 0rem 3.2rem 0rem 0rem;
+    transform: rotate(-78deg);
+}
+
+.nomeKalebe2 {
+    margin: 2rem 2.5rem 0.8rem 0rem;
+    transform: rotate(-70deg);
+}
+
+footer {
+    width: 100%;
+    height: 5%;
+    padding: 0rem 0rem 1rem 1rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: black;
+}
+#btn a{
+    
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+footer h4{
+    font-family: 'Gill Sans MT';
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}

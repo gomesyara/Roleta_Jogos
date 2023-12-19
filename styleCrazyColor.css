@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    animation: title 1.5s;
+    background-image: linear-gradient(lightblue, lightpink, lightgreen);
+}
+@keyframes title {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+main{
+    margin: auto;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#jogoCrazyColor{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#tempo{
+    opacity: 1;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 2px;
+    font-size: 250%;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 100%;
+}
+
+#nomes{
+    width: 90%;
+    height: 67%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 600%;
+    color: MAROON;
+}
+
+#cores{
+    width: 80%;
+    height: 50%;
+    display: grid;
+    grid-template-areas:
+    ". laranja . cinza . verde . roxo ."
+    "vermelho . rosa . azul . amarelo . marrom";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 8rem;
+    height: 5rem;
+    border: 2px solid black;
+    border-radius: 12%;
+    font-size: x-large;
+    font-family: 'Gill Sans MT';
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 6px black;
+}
+
+#orange{
+    grid-area: laranja;
+    background: orange;
+}
+
+#gray{
+    grid-area: cinza;
+    background: gray;
+}
+
+#green{
+    grid-area: verde;
+    background: green;
+}
+
+#purple{
+    grid-area: roxo;
+    background: purple;
+}
+
+#red{
+    grid-area: vermelho;
+    background: red;
+}
+
+#magenta{
+    grid-area: rosa;
+    background: magenta;
+}
+
+#blue{
+    grid-area: azul;
+    background: rgb(51, 51, 240);
+}
+
+#yellow{
+    grid-area: amarelo;
+    background: yellow;
+}
+
+#maroon{
+    grid-area: marrom;
+    background: rgb(104, 2, 2);
+}
+
+footer {
+    width: 100%;
+    height: 5%;
+    padding: 0rem 0rem 1rem 1rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: black;
+}
+
+footer a{
+    text-decoration: none;
+    font-family: 'Gill Sans MT';
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+h4{
+    font-family: 'Gill Sans MT';
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}

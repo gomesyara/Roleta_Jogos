@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.89);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        animation: thales 2.5s;
+      }
+      @keyframes thales {
+        0%{
+          opacity: 0;
+        }
+        20%{
+          opacity: 0;
+        }
+        100%{
+          opacity: 1;
+        }
+      }
+      canvas {
+        border: 1px solid #000;
+        display: block;
+        margin: 0 auto;
+      }
+      footer {
+        text-align: center;
+          width: 100%;
+          position: fixed;
+          bottom: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: black;
+      }
+      footer a{
+          text-decoration: none;
+          font-family: 'Gill Sans MT';
+          font-size: large;
+          color: rgb(255, 255, 255);
+      }
+      h4{
+
+          font-family: 'Gill Sans MT';
+          font-size: medium;
+          color: rgb(255, 255, 255);
+      }
+      .algo{
+        width: 60%;
+        display: flex;
+        justify-items: start;
+      }
+      .algo2{
+        width: 40%;
+        display: flex;
+        justify-items: start;
+      }
+  </style>
+</head>
+<body>
+    <canvas id="game-canvas" width="320" height="580"></canvas>
+
+    <script src="./jogo.js"></script>
+
+    <footer>
+      <div class="algo2">
+        <a href="../../roleta.html"> &#10094&#10094ﾠVOLTAR</a>
+      </div>
+      
+      <div class="algo">
+        <h4 class="descricao"> ETEC SALES GOMES - EPA 2022</h4>
+      </div>
+      
+  </footer>
+</body>
+</html>
