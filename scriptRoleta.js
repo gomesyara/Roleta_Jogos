@@ -15,25 +15,25 @@ function numero(min, max) {
 
 function nomes() {
     if (numerosAleatorios >= 0 && numerosAleatorios <= 44) {
-        return "../roleta2.0/FlappyBird-Project/FlappyBird-Project/index.html";
+        return "FlappyBird-Project/FlappyBird-Project/index.html";
     }
     if (numerosAleatorios >= 45 && numerosAleatorios <= 84) {
         return "NADA";
     }
     if (numerosAleatorios >= 85 && numerosAleatorios <= 134) {
-        return "../roleta2.0/mars-invaders/index.html";
+        return "mars-invaders/index.html";
     }
     if (numerosAleatorios >= 135 && numerosAleatorios <= 179) {
         return "entradaCrazyColor.html";
     }
     if (numerosAleatorios >= 180 && numerosAleatorios <= 224) {
-        return "../roleta2.0/FlappyBird-Project/FlappyBird-Project/index.html";
+        return "FlappyBird-Project/FlappyBird-Project/index.html";
     }
     if (numerosAleatorios >= 225 && numerosAleatorios <= 269) {
         return "escolher.html";
     }
     if (numerosAleatorios >= 270 && numerosAleatorios <= 314) {
-        return "../roleta2.0/mars-invaders/index.html";
+        return "mars-invaders/index.html";
     }
     if (numerosAleatorios >= 315 && numerosAleatorios <= 360) {
         return "entradaCrazyColor.html";
